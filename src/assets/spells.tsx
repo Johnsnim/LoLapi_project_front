@@ -259,7 +259,7 @@ const Spells = [
     },
     {
         id: 32,
-        name: 'Mark',
+        name: 'Snowball',
         description:
             'Throw a snowball in a straight line at your enemies. If it hits an enemy, they become marked, granting True Sight, and your champion can quickly travel to the marked target as a follow up.',
         summonerLevel: 6,

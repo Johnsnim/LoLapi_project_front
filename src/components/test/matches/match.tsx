@@ -42,7 +42,7 @@ const Match = (props) => {
     }, [])
 
     if (matchInfo === null) {
-        return <p> 로딩중입니다. </p>
+        return <p> 이쁘게 간추리는 중... </p>
     }
     const participantsIndex = matchInfo.metadata.participants.indexOf(
         props.userData.puuid
@@ -103,7 +103,7 @@ const Match = (props) => {
     return (
         <>
             {!data ? (
-                <p>데이터 불러오는 중...</p>
+                <p>해당 매치의 데이터를 불러오는 중...</p>
             ) : (
                 <RenderDiv
                     style={{

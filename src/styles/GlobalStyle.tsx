@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;
         padding: 0 !important;
     }
+    
 
 `
 export default GlobalStyle

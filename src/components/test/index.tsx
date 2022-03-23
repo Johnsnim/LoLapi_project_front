@@ -17,8 +17,6 @@ const Test = () => {
     // const urlParams = url.searchParams
 
     // const nickname = urlParams.get('nickname')
-    console.log('지금주소', window.location.href)
-    console.log('지금닉넴', nickname)
 
     const [isLoading, setIsLoading] = useState<boolean>(false)
     interface IUser {
@@ -93,7 +91,6 @@ const Test = () => {
         if (userData !== null && leagueData !== null) setIsLoading(true)
     }, [userData, leagueData])
 
-    console.log('AAA', matchData, 'BBB', userData)
     return (
         <>
             <HeaderWithNoSSR />
