@@ -28,7 +28,7 @@ export const Container = styled.div`
         align-items: center;
     }
     > img {
-        margin-top: 100px;
+        margin-top: 140px;
         margin-bottom: -50px;
     }
 `
