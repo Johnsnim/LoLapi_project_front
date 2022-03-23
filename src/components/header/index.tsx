@@ -7,7 +7,7 @@ import Link from 'next/link'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
-function SimpleSlider() {
+function TipSlider() {
     let randToLoad = Math.floor(Math.random() * 100) % 13
     let randToSlide = Math.floor(Math.random() * 100) % 4
 
@@ -99,7 +99,7 @@ const Header = () => {
                     </Link>
                 </div>
             </Head>
-            {SimpleSlider()}
+            {TipSlider()}
         </>
     )
 }

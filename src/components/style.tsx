@@ -89,9 +89,3 @@ export const SmallButton = styled.button`
     cursor: pointer;
     border-radius: 5px;
 `
-export const Div = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-`
